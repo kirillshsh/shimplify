@@ -1,0 +1,35 @@
+{
+  "name": "shimplify",
+  "version": "0.1.5",
+  "description": "Install the shimplify skill and three GPT-5.5 xhigh review subagents for Codex.",
+  "homepage": "https://github.com/kirillshsh/shimplify#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kirillshsh/shimplify.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kirillshsh/shimplify/issues"
+  },
+  "type": "module",
+  "bin": {
+    "shimplify": "bin/install.mjs",
+    "install-codex-shimplify": "bin/install.mjs"
+  },
+  "files": [
+    "bin/",
+    "shimplify/",
+    "templates/",
+    "LICENSE",
+    "README.md",
+    "install.sh",
+    "install.ps1"
+  ],
+  "scripts": {
+    "install-local": "node ./bin/install.mjs",
+    "check": "node --check ./bin/install.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}

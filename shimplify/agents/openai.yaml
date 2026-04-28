@@ -1,0 +1,6 @@
+interface:
+  display_name: "shimplify"
+  short_description: "Simplify code"
+
+policy:
+  allow_implicit_invocation: true
